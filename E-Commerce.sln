@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "src\Api\Api.csproj", "{5D5A1EC0-44C3-4F91-B459-38C8EEAC422F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement", "src\OrderManagement\OrderManagement.csproj", "{5D5A1EC0-44C3-4F91-B459-38C8EEAC422F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{63EC87E5-02CD-4EA6-BDC0-8D8169FB5637}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.UnitTests", "tst\OrderManagement.UnitTests\OrderManagement.UnitTests.csproj", "{3AE575FC-E831-4F37-A94E-548300104F38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployments", "Deployments", "{F68508BE-F7AB-4D39-B589-7A3514390D26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.Api", "src\OrderManagement.Api\OrderManagement.Api.csproj", "{7474932E-75AB-436B-B613-CC81226074FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,5 +23,16 @@ Global
 		{5D5A1EC0-44C3-4F91-B459-38C8EEAC422F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D5A1EC0-44C3-4F91-B459-38C8EEAC422F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D5A1EC0-44C3-4F91-B459-38C8EEAC422F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE575FC-E831-4F37-A94E-548300104F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE575FC-E831-4F37-A94E-548300104F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE575FC-E831-4F37-A94E-548300104F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE575FC-E831-4F37-A94E-548300104F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7474932E-75AB-436B-B613-CC81226074FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7474932E-75AB-436B-B613-CC81226074FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7474932E-75AB-436B-B613-CC81226074FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7474932E-75AB-436B-B613-CC81226074FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7474932E-75AB-436B-B613-CC81226074FC} = {F68508BE-F7AB-4D39-B589-7A3514390D26}
 	EndGlobalSection
 EndGlobal
